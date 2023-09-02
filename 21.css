@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    background-image: linear-gradient(green,yellow);
+    height: 100vh;
+}
+
+#cont
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+header{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+header h1{
+    color: red;
+    font-size: 9rem;
+    margin: 0;
+}
+header h1 span{
+    color: white;
+}
+
+main h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+main h4{
+    text-align: center;
+}
+
+main #but{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main #but button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+}
+
+main #but #new
+{
+    background-color: orange;
+}
+
+main p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#rbut{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#rbut button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: black;
+}

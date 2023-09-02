@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twenty one</title>
+    <link rel="stylesheet" href="./21.css">
+    <link rel="shortcut icon" href="./cardimg.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section id="cont">
+        <div id="dabba">
+            <header>
+                <h1>2 <span>1</span></h1>
+                <img src="./cardimg2.jpg" alt="">
+            </header>
+
+           <main>
+           <h2>Welcome to the Jackpot</h2>
+            <h4 id="cards">Cards : </h4>
+            <h4 id="total">Total :</h4>
+            <h4 id="ctotal">Computer Total :</h4>
+
+            <div id="but">
+                <button onclick="startgame()">Start Game</button>
+                <button id="new" onclick="newcard()">New Card</button>
+              
+            </div>
+
+            <div id="rbut">
+                <button onclick="winner()">Result</button>
+            </div>
+            <p id="message"></p>
+           </main>
+
+        </div>
+    </section>
+    <script src="./21.js"></script>
+</body>
+
+</html>
