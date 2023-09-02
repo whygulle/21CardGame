@@ -78,3 +78,19 @@ main p{
     background-color: blueviolet;
     color: black;
 }
+
+@media(max-width:600px)
+{
+    #cont
+{
+    width: 80%;
+}
+
+ header h1{
+    font-size: 3rem;
+ }
+
+ header imag{
+    width: 70%;
+ }
+}
